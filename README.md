@@ -59,7 +59,6 @@ Works even when you're disconnected from the internet.
 This is a free, peaceful tool built with love and spirituality.  
 If you like it, consider buying me a coffee or helping me grow:
 
-[☕ Buy Me a Coffee](https://www.buymeacoffee.com/krutik)  
 [🌐 Visit VedAI Website](https://vedai.krutiknaina.com)  
 [🔗 Portfolio](https://krutiknaina.com)
 
