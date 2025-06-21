@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "VedAI Quick Help – Bhagavad Gita & Daily Karma",
+    "description": "🕉️ Get spiritual guidance, Bhagavad Gita quotes, Rashi-based wisdom, and daily karma advice right from your Chrome toolbar.",
+    "version": "1.0.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon128.png"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "permissions": [],
+    "host_permissions": [],
+    "keywords": [
+      "Gita",
+      "Bhagavad Gita",
+      "VedAI",
+      "spiritual quotes",
+      "Chrome extension for daily karma",
+      "vedic advice",
+      "motivational extension",
+      "rashi astrology",
+      "vedic wisdom",
+      "chrome new tab inspiration"
+    ]
+  }
+  

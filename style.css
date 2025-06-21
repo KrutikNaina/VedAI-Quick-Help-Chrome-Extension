@@ -1,0 +1,131 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff9ec;
+    color: #4d2c91;
+    margin: 0;
+    padding: 15px;
+    width: 320px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #7b3f00;
+  }
+  
+  .subtitle {
+    font-size: 13px;
+    margin-top: 4px;
+    color: #666;
+  }
+  
+  .card {
+    background: #ffffff;
+    border: 1px solid #e7ddc4;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: left;
+  }
+  
+  .card p {
+    margin: 8px 0;
+    font-size: 14px;
+  }
+  
+  button {
+    background: #f4de9b;
+    border: none;
+    color: #4d2c91;
+    font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #f9e9b0;
+  }
+  
+  footer {
+    margin-top: 12px;
+    font-size: 11px;
+    color: #999;
+  }
+  
+  footer a {
+    color: #999;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+
+  #particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  .toggle {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+  }
+  .toggle input {
+    display: none;
+  }
+  .slider {
+    width: 40px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+  }
+  .slider::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    transition: 0.3s;
+  }
+  input:checked + .slider {
+    background: #4d2c91;
+  }
+  input:checked + .slider::before {
+    transform: translateX(20px);
+  }
+  body.dark {
+    background: #1e1e1e;
+    color: #f0f0f0;
+  }
+  body.dark .card {
+    background: #2d2d2d;
+    border-color: #555;
+  }
+  body.dark button {
+    background: #6441a5;
+    color: white;
+  }
+  body.dark footer {
+    color: #aaa;
+  }
+    
+
